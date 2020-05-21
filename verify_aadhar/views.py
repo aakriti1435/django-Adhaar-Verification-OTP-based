@@ -27,7 +27,7 @@ def validateAadhaar(request):
         
         #recaptcha backend
         clientKey = request.POST['g-recaptcha-response']
-        secretKey = '6LdRkvYUAAAAAHbvcdKI40aBlHqM9N90kpJU2ct9'
+        secretKey = 'Server side key'
         captchaData = {
             'secret' : secretKey,
             'response' : clientKey
